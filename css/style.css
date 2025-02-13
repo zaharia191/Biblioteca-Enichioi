@@ -1,0 +1,752 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Roboto&display=swap');
+
+:root {
+  --primary: rgba(182, 239, 11, 0.238);
+  --secondary: rgb(0, 0, 0);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Roboto";
+}
+
+body {
+  margin: 0;
+  background-color: var(--primary);
+}
+
+main {
+  width: 100%;
+  min-height: 100dvh;
+  position: relative;
+  bottom: 0;
+  padding-bottom: 0;
+
+}
+
+header {
+  background-color: var(--primary);
+  height: 70px;
+  width: 100%;
+  padding: 0px 30px;
+  position: fixed;
+  z-index: 5;
+}
+
+nav {
+  width: 100%;
+  padding-top: 21px;
+
+}
+
+nav a {
+  padding-bottom: 50px;
+  font-size: 23px;
+  padding-right: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Merienda';
+  color: var(--secondary);
+}
+
+section {
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+h1,
+h2,
+h3,
+a {
+  font-family: Merienda;
+}
+
+footer {
+  background-color: var(--primary);
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  padding-top: 10px;
+  font-family: 'Merienda';
+  font-size: 21px;
+  color: rgb(0, 89, 255);
+  margin-top: 40px;
+}
+
+iframe {
+  width: 40%;
+  height: 450px;
+  border-radius: 20px;
+}
+
+
+.logo {
+  width: 29px;
+  border-radius: 50%;
+  margin-right: 50px;
+  float: left;
+  animation: anim 2s 2s infinite;
+  margin-top: 16px;
+  margin-left: 50px;
+}
+
+.fundal {
+  width: 100%;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  height: 100dvh;
+  filter: opacity(65%)
+}
+
+.fundal-h1 {
+  font-size: 40px;
+  font-family: 'Merienda';
+  position: absolute;
+  bottom: 55%;
+  left: 7%;
+  border: 5px solid rgb(246, 187, 9);
+  color: rgb(38, 2, 70);
+  fill-opacity: (100%);
+  border-radius: 17px;
+  padding: 15px;
+}
+
+
+
+.footer {
+  margin-top: 5px;
+}
+
+.copy {
+  width: 20px;
+  margin-left: 10px;
+}
+
+.fundal-div {
+  width: 100%;
+  margin-bottom: -10px;
+  height: 100dvh;
+}
+
+.fundal-a {
+  position: absolute;
+  bottom: 25%;
+  right: 10%;
+
+}
+
+.centered {
+  text-align: center;
+  color: var(--secondary);
+}
+
+.main {
+  padding-top: 70px;
+  width: 70%;
+  margin: 0 15%;
+
+}
+
+.despre-h1 {
+  padding-top: 10px;
+}
+
+.despre-p {
+  width: 100%;
+  margin: 20px 50px;
+}
+
+
+.dategenerale {
+  width: 100%;
+  padding: 10px 10%;
+
+}
+
+.despre-copy {
+  float: right;
+  width: 20%;
+  height: 200px;
+  margin-left: 25px;
+  border-radius: 15px;
+  border: 3px solid rgb(15, 240, 7);
+}
+
+.biografie {
+  width: 100%;
+  padding: 10px 10%;
+  margin-bottom: 30px;
+}
+
+.biografie-p {
+  padding-right: 100px;
+}
+
+.biografie-img {
+  float: left;
+  width: 18%;
+  height: 200px;
+  margin-right: 25px;
+  border-radius: 20px;
+  border: 3px solid rgb(7, 158, 240);
+}
+
+
+.plan {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: rgba(0, 237, 193, 0.096);
+
+}
+
+.contacte {
+  width: 100%;
+  margin-top: -25px;
+}
+
+.contacte-p {
+  display: inline-block;
+  width: 45%;
+  padding-left: 40px;
+  vertical-align: top;
+  padding-top: 5px;
+}
+
+.contacte-p1 {
+  display: none;
+}
+
+.contacte-iframe {
+  width: 45%;
+  display: inline-block;
+  padding-top: 30px;
+}
+
+.contacte-iframe1 {
+  display: none;
+}
+
+iframe {
+  width: 100%;
+
+}
+
+.program {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.servicii {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: -15px;
+  padding-top: 20px;
+
+}
+
+.video {
+  width: 40%;
+  margin-right: 70px;
+  margin-top: 60px;
+}
+
+.film {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.servicii-film {
+  width: 60%;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.galerie {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.galerie img {
+  width: 225px;
+  height: 220px;
+  box-shadow: gray 0px 10px 20px 0px;
+  border-radius: 10px;
+}
+
+
+dt img {
+  margin-right: 7px;
+
+}
+
+.imagini {
+  margin-bottom: 25px;
+}
+
+.lista {
+  margin-top: -25px;
+}
+
+.contacte-icon {
+  margin-right: 10px;
+  margin-left: 70px;
+  animation: anim 3s 2s infinite;
+}
+
+.contacte-icon1 {
+  margin-left: 65px;
+  animation: anim 3s 2s infinite;
+}
+
+.buton-plan {
+  position: absolute;
+  top: 350px;
+  left: 110px;
+  width: 200px;
+  font-size: 40px;
+  filter: opacity(90%);
+  font-family: 'Merienda';
+  font-weight: bold;
+  border-radius: 17px;
+  background-color: rgba(209, 219, 98, 0.752);
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.buton-plan h1 {
+  /* font-size: 40px; */
+  color: black;
+}
+
+.buton-contacte {
+  position: absolute;
+  top: 350px;
+  left: 330px;
+  width: 200px;
+  font-size: 40px;
+  filter: opacity(90%);
+  font-family: 'Merienda';
+  font-weight: bold;
+  border-radius: 17px;
+  background-color: rgba(209, 219, 98, 0.752);
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+
+.buton-contacte h1 {
+  font-size: 40px;
+  font-family: 'Merienda';
+  /* padding: 15px; */
+}
+
+#plan {
+  padding-top: 75px;
+}
+
+#contacte {
+  padding-top: 75px;
+}
+
+.a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.a:hover {
+  text-decoration: underline 2px rgb(0, 221, 255) solid;
+  color: rgb(0, 221, 255);
+}
+
+.i1,
+.i2,
+.i3,
+.i4,
+.i5,
+.i6,
+.i7,
+.i8,
+.i9,
+.i10,
+.i11,
+.i12,
+.i13,
+.i14 {
+  width: 32px;
+  position: absolute;
+  animation: anim2 4s 4s infinite;
+}
+
+.i1 {
+  top: 5%;
+  left: -100px;
+}
+
+.i2 {
+  top: 30%;
+  right: -120px;
+}
+
+.i3 {
+  top: 55%;
+  left: -160px;
+}
+
+.i4 {
+  top: 80%;
+  right: -180px
+}
+
+.i5 {
+  top: 12%;
+  right: -190px;
+}
+
+.i6 {
+  top: 33%;
+  left: -210px;
+}
+
+.i7 {
+  top: 50%;
+  right: -190px;
+}
+
+.i8 {
+  top: 75%;
+  left: -70px;
+}
+
+.i9 {
+  top: 95%;
+  right: -70px;
+}
+
+.i10 {
+  top: 18%;
+  left: -160px;
+}
+
+.i11 {
+  top: 65%;
+  right: -60px;
+}
+
+.i12 {
+  top: 90%;
+  left: -195px;
+}
+
+.i13 {
+  top: 43%;
+  left: -60px;
+}
+
+.i14 {
+  top: 21%;
+  right: -60px;
+}
+
+
+
+#hamburger {
+  color: white;
+  font-size: 26px;
+  position: absolute;
+  right: 70px;
+  top: 17px;
+  cursor: pointer;
+  display: none;
+}
+
+@keyframes anim {
+  0% {
+    transform: scale(1);
+
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes anim2 {
+  0% {
+    transform: scale(1);
+    transform: rotate(0);
+  }
+
+  25% {
+    transform: scale(1.2);
+    transform: rotate(25deg);
+  }
+
+  50% {
+    transform: scale(1) rotate(0);
+  }
+
+  75% {
+    transform: scale(0.75) rotate(-25deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(0);
+
+  }
+}
+
+@media (max-width: 800px) {
+  #hamburger {
+    display: block;
+    padding-top: 4px;
+    right: 40px;
+  }
+
+  html {
+    font: size 16px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.mobile {
+    display: block;
+    width: 50%;
+    position: absolute;
+    left: 20%;
+    padding-top: 10px;
+  }
+
+  nav.mobile a {
+    font-size: 20px;
+    margin-left: 30px;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  section {
+    width: 100%;
+  }
+
+  .buton-plan {
+    font-size: 20px;
+    top: 520px;
+    left: 120px;
+    width: 100px;
+
+
+  }
+
+  .buton-contacte {
+    font-size: 20px;
+    top: 519px;
+    left: 10px;
+    width: 100px;
+
+  }
+
+  .fundal-h1 {
+    font-size: 20px;
+    bottom: 60%;
+    left: 5%;
+    border: 5px solid rgb(246, 187, 9);
+    color: rgb(38, 2, 70);
+    fill-opacity: (100%);
+    border-radius: 17px;
+    padding: 6px;
+    width: 90%;
+  }
+
+  .logo {
+    margin-left: 10px;
+  }
+
+  .fundal-a {
+    bottom: 15%;
+    right: 10%;
+  }
+
+  .main {
+    width: 100%;
+    margin: 0;
+  }
+
+  .th1 {
+    width: 15%;
+  }
+
+  .th2 {
+    width: 35%;
+  }
+
+  .th3 {
+    width: 35%;
+  }
+
+  .th4 {
+    width: 15%;
+  }
+
+  .dategenerale {
+    width: 100%;
+    padding: 0;
+  }
+
+  .plan {
+    font-size: 12px;
+    padding-left: 0;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: -50px;
+    width: 90%;
+  }
+
+  .biografie {
+    padding: 0;
+  }
+
+  span {
+    font-size: 16px;
+  }
+
+  .biografie-img {
+    display: block;
+    width: 80%;
+    margin-left: 35px;
+    margin-bottom: 30px;
+  }
+
+  .despre-copy {
+    display: block;
+    width: 80%;
+    margin-right: 37px;
+    margin-bottom: 20px;
+  }
+
+  .despre-p {
+    width: 95%;
+    margin: 0;
+    padding-left: 25px;
+    margin-bottom: 30px;
+  }
+
+  .program {
+    width: 95%;
+    margin-bottom: 30px;
+    margin-bottom: 20px;
+    /* margin-right: 0; */
+  }
+
+  .biografie-p {
+    width: 95%;
+    margin: 0;
+    padding-left: 25px;
+    margin-bottom: -30px;
+    padding-right: 10px;
+  }
+
+  .biografie {
+    margin: 0;
+  }
+
+  .contacte-iframe,
+  .contacte-p {
+    display: none;
+
+  }
+
+  .contacte-icon {
+
+    margin-left: 0px;
+
+  }
+
+  .contacte-icon1 {
+    margin-left: 0px;
+
+  }
+
+  .contacte-iframe1 {
+    width: 90%;
+    display: block;
+    padding-top: 10px;
+    margin-left: 20px;
+  }
+
+  .contacte-p1 {
+    display: block;
+    width: 95%;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 16px;
+  }
+
+
+  .servicii-film {
+    display: block;
+    width: 95%;
+    padding-left: 20px;
+    padding-bottom: 0;
+  }
+
+  .video {
+    display: block;
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  video {
+    width: 100%;
+  }
+
+  .servicii {
+    width: 100%;
+    margin: 0;
+  }
+
+  .film {
+    width: 100%;
+    display: block;
+  }
+
+  dt,
+  dt img {
+    margin-left: 20px;
+
+  }
+
+  .servicii-film i {
+    display: none;
+  }
+  .dategenerale {
+    display: none; 
+  }
+}
+
